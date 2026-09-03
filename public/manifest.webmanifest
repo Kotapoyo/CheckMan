@@ -1,0 +1,12 @@
+{
+  "name": "CheckMan - 旅行の持ち物準備",
+  "short_name": "CheckMan",
+  "description": "誰が・いつまでに・どのバッグへ入れるかまで管理できる旅行の持ち物リスト",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#faf6ef",
+  "theme_color": "#177f80",
+  "lang": "ja",
+  "icons": [{ "src": "/favicon.ico", "sizes": "48x48", "type": "image/x-icon" }]
+}

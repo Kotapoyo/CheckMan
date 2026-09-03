@@ -1,0 +1,786 @@
+{
+  "common": [
+    {
+      "key": "wallet",
+      "name": "財布",
+      "emoji": "👛",
+      "priority": "high",
+      "bag": "wear",
+      "reason": "現地での支払いに必要です。"
+    },
+    {
+      "key": "smartphone",
+      "name": "スマートフォン",
+      "emoji": "📱",
+      "priority": "high",
+      "bag": "wear",
+      "reason": "連絡・地図・チケット表示に使います。"
+    },
+    {
+      "key": "charger",
+      "name": "充電器・ケーブル",
+      "emoji": "🔌",
+      "priority": "high",
+      "bag": "carryon",
+      "reason": "旅行中の充電に必要です。"
+    },
+    {
+      "key": "mobile-battery",
+      "name": "モバイルバッテリー",
+      "emoji": "🔋",
+      "priority": "mid",
+      "bag": "carryon",
+      "reason": "移動中の電池切れを防ぎます。"
+    },
+    {
+      "key": "medicine",
+      "name": "常備薬",
+      "emoji": "💊",
+      "priority": "high",
+      "bag": "carryon",
+      "reason": "現地で同じ薬が手に入るとは限りません。"
+    },
+    {
+      "key": "identification",
+      "name": "健康保険証・身分証",
+      "emoji": "🪪",
+      "priority": "high",
+      "bag": "carryon",
+      "reason": "急な受診や本人確認に必要です。"
+    },
+    {
+      "key": "toiletries",
+      "name": "歯ブラシ・洗面用具",
+      "emoji": "🪥",
+      "priority": "mid",
+      "bag": "checked",
+      "reason": "宿の備品がない場合に備えます。"
+    },
+    {
+      "key": "tops",
+      "name": "着替え（上）",
+      "emoji": "👕",
+      "priority": "mid",
+      "bag": "checked",
+      "reason": "旅行日数に合わせて用意します。"
+    },
+    {
+      "key": "bottoms",
+      "name": "着替え（下）",
+      "emoji": "👖",
+      "priority": "mid",
+      "bag": "checked",
+      "reason": "旅行日数に合わせて用意します。"
+    },
+    {
+      "key": "underwear",
+      "name": "下着・靴下",
+      "emoji": "🧦",
+      "priority": "mid",
+      "bag": "checked",
+      "reason": "旅行日数に合わせて用意します。"
+    },
+    {
+      "key": "eco-bag",
+      "name": "エコバッグ",
+      "emoji": "🛍️",
+      "priority": "low",
+      "bag": "checked",
+      "reason": "お土産や洗濯物の持ち帰りに使えます。"
+    },
+    {
+      "key": "skin-care",
+      "name": "常用のスキンケア",
+      "emoji": "🧴",
+      "priority": "low",
+      "bag": "checked",
+      "reason": "普段と同じものが安心です。"
+    }
+  ],
+  "travelType": {
+    "overseas": [
+      {
+        "key": "passport",
+        "name": "パスポート",
+        "emoji": "🛂",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "出入国に必須です。残存有効期間も確認します。"
+      },
+      {
+        "key": "flight-ticket",
+        "name": "航空券・eチケット控え",
+        "emoji": "🎫",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "搭乗手続きで提示します。"
+      },
+      {
+        "key": "travel-insurance",
+        "name": "海外旅行保険の控え",
+        "emoji": "📄",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "現地での医療費やトラブルに備えます。"
+      },
+      {
+        "key": "power-adapter",
+        "name": "変換プラグ",
+        "emoji": "🔌",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "渡航先のコンセント形状に合わせます。"
+      },
+      {
+        "key": "foreign-payment",
+        "name": "現地通貨・クレジットカード",
+        "emoji": "💳",
+        "priority": "high",
+        "bag": "wear",
+        "reason": "現地で利用できる支払い手段を確保します。"
+      },
+      {
+        "key": "overseas-network",
+        "name": "海外eSIM・Wi-Fiルーター",
+        "emoji": "📶",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "現地での通信手段を確保します。"
+      }
+    ]
+  },
+  "season": {
+    "spring": [
+      {
+        "key": "light-outer",
+        "name": "薄手の羽織り",
+        "emoji": "🧥",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "春の朝晩や室内外の寒暖差に備えます。"
+      },
+      {
+        "key": "allergy-medicine",
+        "name": "花粉症の薬・マスク",
+        "emoji": "😷",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "春の花粉が気になる場合に備えます。"
+      }
+    ],
+    "summer": [
+      {
+        "key": "sunscreen",
+        "name": "日焼け止め",
+        "emoji": "🧴",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "夏の強い日差しから肌を守ります。"
+      },
+      {
+        "key": "hat",
+        "name": "帽子",
+        "emoji": "👒",
+        "priority": "mid",
+        "bag": "wear",
+        "reason": "日差しと暑さへの対策になります。"
+      },
+      {
+        "key": "hydration",
+        "name": "飲料水・水筒",
+        "emoji": "🚰",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "暑い時期の水分補給に必要です。"
+      }
+    ],
+    "autumn": [
+      {
+        "key": "light-outer",
+        "name": "薄手の羽織り",
+        "emoji": "🧥",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "秋の朝晩の冷え込みに備えます。"
+      },
+      {
+        "key": "folding-umbrella",
+        "name": "折りたたみ傘",
+        "emoji": "☂️",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "秋雨や急な天候変化に備えます。"
+      }
+    ],
+    "winter": [
+      {
+        "key": "winter-clothes",
+        "name": "防寒着",
+        "emoji": "🧥",
+        "priority": "high",
+        "bag": "wear",
+        "reason": "冬の低温から体を守ります。"
+      },
+      {
+        "key": "winter-accessories",
+        "name": "手袋・マフラー",
+        "emoji": "🧤",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "手や首元の冷えを防ぎます。"
+      },
+      {
+        "key": "heat-pack",
+        "name": "使い捨てカイロ",
+        "emoji": "🔥",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "屋外で過ごす時間の防寒に役立ちます。"
+      }
+    ]
+  },
+  "transportation": {
+    "飛行機": [
+      {
+        "key": "flight-ticket",
+        "name": "航空券・搭乗券",
+        "emoji": "🎫",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "搭乗手続きで提示します。"
+      },
+      {
+        "key": "neck-pillow",
+        "name": "機内用ネックピロー",
+        "emoji": "🛌",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "長時間の移動を楽にします。"
+      }
+    ],
+    "新幹線・電車": [
+      {
+        "key": "transport-ticket",
+        "name": "乗車券・予約情報",
+        "emoji": "🚆",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "乗車時にすぐ提示できるようにします。"
+      }
+    ],
+    "車": [
+      {
+        "key": "drivers-license",
+        "name": "運転免許証",
+        "emoji": "🚗",
+        "priority": "high",
+        "bag": "wear",
+        "reason": "運転時に必ず携帯します。"
+      },
+      {
+        "key": "car-charger",
+        "name": "車載充電器",
+        "emoji": "🔌",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "長距離移動中の充電に使います。"
+      }
+    ],
+    "バス": [
+      {
+        "key": "transport-ticket",
+        "name": "乗車券・予約情報",
+        "emoji": "🚌",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "乗車時にすぐ提示できるようにします。"
+      }
+    ],
+    "船": [
+      {
+        "key": "ship-ticket",
+        "name": "乗船券・予約情報",
+        "emoji": "⛴️",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "乗船手続きで提示します。"
+      },
+      {
+        "key": "motion-sickness",
+        "name": "酔い止め",
+        "emoji": "💊",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "船酔いに備えます。"
+      }
+    ]
+  },
+  "purpose": {
+    "観光": [
+      {
+        "key": "walking-shoes",
+        "name": "歩きやすい靴",
+        "emoji": "👟",
+        "priority": "mid",
+        "bag": "wear",
+        "reason": "観光で長時間歩く場合に備えます。"
+      },
+      {
+        "key": "day-bag",
+        "name": "小さめのバッグ",
+        "emoji": "🎒",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "観光中に必要な物だけ持ち歩けます。"
+      }
+    ],
+    "帰省": [
+      {
+        "key": "gift",
+        "name": "手土産",
+        "emoji": "🎁",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "帰省先への挨拶に用意します。"
+      }
+    ],
+    "仕事・出張": [
+      {
+        "key": "work-pc",
+        "name": "ノートPC・充電器",
+        "emoji": "💻",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "出張先での業務に必要です。"
+      },
+      {
+        "key": "business-cards",
+        "name": "名刺",
+        "emoji": "🗂️",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "打ち合わせや訪問先で使います。"
+      },
+      {
+        "key": "formal-clothes",
+        "name": "ジャケット・革靴",
+        "emoji": "👔",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "訪問先の服装に合わせます。"
+      }
+    ],
+    "アウトドア": [
+      {
+        "key": "insect-repellent",
+        "name": "虫よけ",
+        "emoji": "🦟",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "屋外での虫刺されを防ぎます。"
+      },
+      {
+        "key": "flashlight",
+        "name": "ライト・予備電池",
+        "emoji": "🔦",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "暗い場所での安全確保に使います。"
+      }
+    ],
+    "イベント・テーマパーク": [
+      {
+        "key": "event-ticket",
+        "name": "入場チケット・予約画面",
+        "emoji": "🎟️",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "入場時にすぐ提示できるようにします。"
+      },
+      {
+        "key": "rain-poncho",
+        "name": "レインポンチョ",
+        "emoji": "🌧️",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "屋外イベントの急な雨に備えます。"
+      }
+    ],
+    "記念旅行": [
+      {
+        "key": "camera",
+        "name": "カメラ・予備バッテリー",
+        "emoji": "📷",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "旅行の思い出を残せます。"
+      },
+      {
+        "key": "formal-clothes",
+        "name": "きれいめの服",
+        "emoji": "👗",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "記念日の食事や写真撮影に備えます。"
+      }
+    ]
+  },
+  "activities": {
+    "海・プール": [
+      {
+        "key": "swimsuit",
+        "name": "水着",
+        "emoji": "🩱",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "海・プールで使います。"
+      },
+      {
+        "key": "sunscreen",
+        "name": "日焼け止め",
+        "emoji": "🧴",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "水辺で長時間過ごす際の日差し対策です。"
+      },
+      {
+        "key": "sandals",
+        "name": "ビーチサンダル",
+        "emoji": "🩴",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "濡れた場所で歩きやすくなります。"
+      },
+      {
+        "key": "waterproof-bag",
+        "name": "防水バッグ・袋",
+        "emoji": "💧",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "濡れた物と乾いた物を分けられます。"
+      }
+    ],
+    "ハイキング": [
+      {
+        "key": "hiking-shoes",
+        "name": "トレッキングシューズ",
+        "emoji": "🥾",
+        "priority": "mid",
+        "bag": "wear",
+        "reason": "足元の安全を確保します。"
+      },
+      {
+        "key": "rainwear",
+        "name": "レインウェア",
+        "emoji": "🧥",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "山の急な天候変化に備えます。"
+      },
+      {
+        "key": "hydration",
+        "name": "飲料水・水筒",
+        "emoji": "🚰",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "行動中の水分補給に必要です。"
+      }
+    ],
+    "観光・街歩き": [
+      {
+        "key": "folding-umbrella",
+        "name": "折りたたみ傘",
+        "emoji": "☂️",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "街歩き中の急な雨に備えます。"
+      },
+      {
+        "key": "day-bag",
+        "name": "小さめのバッグ",
+        "emoji": "🎒",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "街歩き用に身軽になれます。"
+      }
+    ],
+    "温泉": [
+      {
+        "key": "face-towel",
+        "name": "フェイスタオル",
+        "emoji": "🧻",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "外湯めぐりで役立ちます。"
+      },
+      {
+        "key": "bath-care",
+        "name": "ヘアゴム・入浴後のケア用品",
+        "emoji": "💆",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "入浴後の身支度に使います。"
+      }
+    ],
+    "スキー・雪": [
+      {
+        "key": "winter-clothes",
+        "name": "防寒着",
+        "emoji": "🧥",
+        "priority": "high",
+        "bag": "wear",
+        "reason": "低温下で安全に過ごすために必要です。"
+      },
+      {
+        "key": "ski-goggles",
+        "name": "ゴーグル",
+        "emoji": "🥽",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "雪面の照り返しから目を守ります。"
+      },
+      {
+        "key": "thick-socks",
+        "name": "厚手の靴下",
+        "emoji": "🧦",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "足元の冷えを防ぎます。"
+      }
+    ],
+    "仕事・出張": [
+      {
+        "key": "work-pc",
+        "name": "ノートPC・充電器",
+        "emoji": "💻",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "出張先での業務に必要です。"
+      },
+      {
+        "key": "business-cards",
+        "name": "名刺",
+        "emoji": "🗂️",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "打ち合わせで使います。"
+      }
+    ],
+    "写真撮影": [
+      {
+        "key": "camera",
+        "name": "カメラ・予備バッテリー",
+        "emoji": "📷",
+        "priority": "mid",
+        "bag": "carryon",
+        "reason": "撮影中の電池切れを防ぎます。"
+      },
+      {
+        "key": "memory-card",
+        "name": "SDカード",
+        "emoji": "💾",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "撮影データの容量不足を防ぎます。"
+      }
+    ],
+    "レストラン・会食": [
+      {
+        "key": "formal-clothes",
+        "name": "きれいめの服",
+        "emoji": "👗",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "ドレスコードのある店に備えます。"
+      }
+    ]
+  },
+  "destinations": [
+    {
+      "keywords": ["沖縄", "宮古島", "石垣島", "奄美", "ハワイ", "グアム", "バリ", "セブ"],
+      "items": [
+        {
+          "key": "swimsuit",
+          "name": "水着",
+          "emoji": "🩱",
+          "priority": "mid",
+          "bag": "checked",
+          "reason": "海のある旅行先で使う可能性が高い持ち物です。"
+        },
+        {
+          "key": "sunscreen",
+          "name": "日焼け止め",
+          "emoji": "🧴",
+          "priority": "mid",
+          "bag": "checked",
+          "reason": "日差しの強い旅行先に備えます。"
+        },
+        {
+          "key": "sandals",
+          "name": "ビーチサンダル",
+          "emoji": "🩴",
+          "priority": "low",
+          "bag": "checked",
+          "reason": "海辺や濡れた場所で使えます。"
+        },
+        {
+          "key": "rash-guard",
+          "name": "ラッシュガード",
+          "emoji": "🏖️",
+          "priority": "low",
+          "bag": "checked",
+          "reason": "強い日差しや水辺での肌の保護に役立ちます。"
+        }
+      ]
+    },
+    {
+      "keywords": ["北海道", "札幌", "旭川", "富良野"],
+      "items": [
+        {
+          "key": "temperature-layer",
+          "name": "重ね着できる服",
+          "emoji": "🧥",
+          "priority": "mid",
+          "bag": "checked",
+          "reason": "北海道の朝晩や地域ごとの気温差に備えます。"
+        }
+      ]
+    },
+    {
+      "keywords": ["東京", "大阪", "京都", "名古屋", "福岡", "横浜"],
+      "items": [
+        {
+          "key": "transit-card",
+          "name": "交通系ICカード",
+          "emoji": "🚉",
+          "priority": "mid",
+          "bag": "wear",
+          "reason": "都市部の電車やバス移動をスムーズにします。"
+        }
+      ]
+    }
+  ],
+  "ageGroups": {
+    "child": [
+      {
+        "key": "kids-snack",
+        "name": "子ども用おやつ",
+        "emoji": "🍪",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "移動中の待ち時間や空腹に備えます。",
+        "assignee": "child"
+      },
+      {
+        "key": "kids-spare-clothes",
+        "name": "子どもの着替え（予備）",
+        "emoji": "👕",
+        "priority": "mid",
+        "bag": "kidsbag",
+        "reason": "汚れたときの着替えとして用意します。",
+        "assignee": "child"
+      }
+    ],
+    "toddler": [
+      {
+        "key": "kids-snack",
+        "name": "子ども用おやつ",
+        "emoji": "🍪",
+        "priority": "low",
+        "bag": "carryon",
+        "reason": "移動中の待ち時間や空腹に備えます。",
+        "assignee": "child"
+      },
+      {
+        "key": "favorite-toy",
+        "name": "お気に入りのおもちゃ",
+        "emoji": "🧸",
+        "priority": "low",
+        "bag": "kidsbag",
+        "reason": "待ち時間を過ごしやすくします。",
+        "assignee": "child"
+      },
+      {
+        "key": "child-medical-docs",
+        "name": "母子手帳・子どもの保険証",
+        "emoji": "📘",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "急な受診時に必要です。",
+        "assignee": "child"
+      }
+    ],
+    "baby": [
+      {
+        "key": "diapers",
+        "name": "おむつ・おしりふき",
+        "emoji": "🧷",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "移動中と旅行日数分を用意します。",
+        "assignee": "child"
+      },
+      {
+        "key": "baby-food",
+        "name": "ミルク・離乳食",
+        "emoji": "🍼",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "現地で同じものが買えない場合に備えます。",
+        "assignee": "child"
+      },
+      {
+        "key": "child-medical-docs",
+        "name": "母子手帳・子どもの保険証",
+        "emoji": "📘",
+        "priority": "high",
+        "bag": "carryon",
+        "reason": "急な受診時に必要です。",
+        "assignee": "child"
+      }
+    ]
+  },
+  "lodging": {
+    "キャンプ": [
+      {
+        "key": "flashlight",
+        "name": "ライト・予備電池",
+        "emoji": "🔦",
+        "priority": "high",
+        "bag": "checked",
+        "reason": "夜間のキャンプ場で安全に行動するために使います。"
+      },
+      {
+        "key": "insect-repellent",
+        "name": "虫よけ",
+        "emoji": "🦟",
+        "priority": "mid",
+        "bag": "checked",
+        "reason": "屋外での虫刺されを防ぎます。"
+      },
+      {
+        "key": "camping-towel",
+        "name": "速乾タオル",
+        "emoji": "🧺",
+        "priority": "low",
+        "bag": "checked",
+        "reason": "キャンプ中でも乾きやすく扱いやすいタオルです。"
+      }
+    ]
+  },
+  "duration": [
+    {
+      "minNights": 3,
+      "items": [
+        {
+          "key": "laundry-kit",
+          "name": "洗濯用洗剤・圧縮袋",
+          "emoji": "🧼",
+          "priority": "low",
+          "bag": "checked",
+          "reason": "3泊以上では洗濯して衣類を減らせます。"
+        }
+      ]
+    }
+  ]
+}
